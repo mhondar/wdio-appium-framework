@@ -1,0 +1,40 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+pool:
+  vmImage: macOS-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '14.x'
+  displayName: 'Install Node.js'
+
+- script: npm install
+  displayName: 'Install Dependencies'
+
+- script: npm run test_bs 
+  condition: succeededOrFailed()
+  displayName: 'Run Test'
+
+- script: npm run generate_allure_result 
+  condition: succeededOrFailed()
+  displayName: 'Allure Report Generate'
+
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'results*.xml'
+
+- task: PublishPipelineArtifact@1
+  condition: succeededOrFailed()
+  displayName: 'Publish Allure Report'
+  inputs:
+    targetPath: '$(Pipeline.Workspace)/s/allure-report'
+    artifactType: 'pipeline'
+    artifactName: 'AllureReport'
+
+

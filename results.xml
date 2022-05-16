@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Bodega" timestamp="2022-04-28T12:26:28" time="181.671" tests="8" failures="2" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Bodega"/>
+      <property name="capabilities" value="r5cr10ajn5p.android.11"/>
+      <property name="file" value="./test/specs/02-Bodega.test.js"/>
+    </properties>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 05 Abrir Menu Bodega" time="2.325">
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Bodega\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Bodega\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/0711c053-c261-488d-be49-6f5bfe51e717/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Bodega\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Bodega\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.TextView[@text=\"Bodega\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Bodega\"]"}
+]]></system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 06 Seleccionar Solicitud de Consumo" time="3.367">
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/12773fc9-e9d6-459a-96c7-d8b31f3cb863/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+]]></system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 07 Cambiar Centro de Gesti n" time="4.733">
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.Button[@text=\"swap horizontal outline\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"swap horizontal outline\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/42b2a652-cc6f-4337-9a48-07486cd11ddb/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"CG 10 TestCafe\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"CG 10 TestCafe\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/ab211313-4f23-4f7e-9ad9-5fefa526e839/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Solicitud de Consumo\"]"}
+]]></system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 07 Click en Crear Solicitud" time="3.123">
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.Button[@text=\"CREAR SOLICITUD\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"CREAR SOLICITUD\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/b4c82525-1a88-4f84-9950-8b6d75ba20af/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.view.View[@text=\"Selecciona tipo de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Selecciona tipo de Consumo\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Selecciona tipo de Consumo\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Selecciona tipo de Consumo\"]"}
+]]></system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 08 Seleccionar tipo de Consumo Item" time="4.709">
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.RadioButton[@text=\"Item\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.RadioButton[@text=\"Item\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/93bbc141-a2c1-424a-a3df-d88f4942f271/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.Button[@text=\"OK\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"OK\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/ce751c80-3425-4c9e-a00e-61be817a1ad3/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Generando Solicitud\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Generando Solicitud\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.TextView[@text=\"Generando Solicitud\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Generando Solicitud\"]"}
+]]></system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 09 Completar informaci n de Solicitud para generar" time="5.891">
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.EditText[@resource-id=\"__smartlook_2\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@resource-id=\"__smartlook_2\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/b140cda5-e33c-4816-9a55-f99cb7f5452f/value - {"text":"Mari"}
+RESULT: {"text":"Mari"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.Button[@bounds=\"[201,584][1080,749]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@bounds=\"[201,584][1080,749]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/9784f673-492e-4dd2-986d-cf6c0621b60d/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.view.View[@text=\"PRESELECCIONAR DESTINO\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"PRESELECCIONAR DESTINO\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"PRESELECCIONAR DESTINO\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"PRESELECCIONAR DESTINO\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.RadioButton[@text=\"Destino Departamentos\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.RadioButton[@text=\"Destino Departamentos\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/c464474d-9801-47e5-be49-56d34ada7e66/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.Button[@text=\"OK\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=\"OK\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/2280bd60-c457-429a-9490-bfd1d8ece849/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 10 Agregar Item" time="60.007">
+      <failure/>
+      <error message="Timeout of 60000ms exceeded. The execution in the test &quot;Bodega TC-10 Agregar Item&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/test/specs/02-Bodega.test.js)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Agregar Item\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Agregar Item\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element/883c07fc-58df-4f1a-8f16-0ac7238bebbd/click - {}
+RESULT: {}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"Agregar Item\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Agregar Item\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.TextView[@text=\"Agregar Item\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"Agregar Item\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Timeout of 60000ms exceeded. The execution in the test "Bodega TC-10 Agregar Item" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/test/specs/02-Bodega.test.js)
+    at createTimeoutError (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.<anonymous> (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+]]></system-err>
+    </testcase>
+    <testcase classname="samsunggalaxys21.11_0.Bodega" name="TC 11 Validar Solicitud generada" time="60.006">
+      <failure/>
+      <error message="Timeout of 60000ms exceeded. The execution in the test &quot;Bodega TC-11 Validar Solicitud generada&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/test/specs/02-Bodega.test.js)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/element - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@bounds=\"[48,245][1032,371]\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: POST /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de/elements - {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+RESULT: {"using":"xpath","value":"//android.view.View[@text=\"Solicitudes\"]"}
+COMMAND: DELETE /session/37ff0c966dd2b6f25a515115e45ad0cc9ae6c4de - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Timeout of 60000ms exceeded. The execution in the test "Bodega TC-11 Validar Solicitud generada" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/test/specs/02-Bodega.test.js)
+    at createTimeoutError (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.<anonymous> (/Users/mhondar/Documents/ICONSTRUYE/WebdriverIOAppium/AutomatizacionMobile/AutomatizacionMobile/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
